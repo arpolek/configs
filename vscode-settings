@@ -61,5 +61,6 @@
     "code-runner.showExecutionMessage": false,
     "code-runner.clearPreviousOutput": true,
     "editor.wordWrap": "on",
-    "terminal.integrated.copyOnSelection": true
+    "terminal.integrated.copyOnSelection": true,
+    "window.openFoldersInNewWindow": "default"
 }
