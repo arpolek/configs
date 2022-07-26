@@ -1,31 +1,32 @@
-set number
 set title
 set laststatus=2
-set ruler
 set wildmenu
+syntax enable
+set encoding=utf-8
+set confirm
+set history=100
+set number
+
 set tabpagemax=50
 set noerrorbells
 set visualbell
 set cursorline
 
-set autoindent
-set expandtab
-set shiftround
-set shiftwidth=4
-set smarttab
-set tabstop=4
+set wrap
+set linebreak
+set scrolloff=10
+set sidescrolloff=5
 
-set hlsearch
+" Better searching
 set ignorecase
 set incsearch
 set smartcase
+set hlsearch
 
-set display+=lastline
-set encoding=utf-8
-set linebreak
-set scrolloff=5
-set sidescrolloff=5
-set wrap
-syntax enable
-
-autocmd FileType yaml setlocal ai ts=2 sw=2 et
+" Indentation
+set autoindent
+set shiftwidth=4
+set softtabstop=4
+set expandtab
+set shiftround
+set smarttab
