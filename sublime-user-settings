@@ -3,4 +3,6 @@
 	[
 		"Vintage",
 	],
+		"scroll_past_end": 0.5,
+		"word_wrap": "true",
 }
