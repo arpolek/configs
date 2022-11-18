@@ -1,12 +1,17 @@
 {
-    "python.pythonPath": "/opt/homebrew/bin/python3",
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
+    "window.openFoldersInNewWindow": "off",
     "python.formatting.provider": "black",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "editor.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--disable=C0111",
+        "--disable=C0103"
+    ],
+    "editor.quickSuggestionsDelay": 100,
+    "editor.wordWrap": "on",
     "code-runner.executorMap": {
         "python": "$pythonPath -u $fullFileName"
     },
@@ -14,12 +19,12 @@
     "code-runner.showExecutionMessage": false,
     "code-runner.ignoreSelection": true,
     "code-runner.saveFileBeforeRun": true,
-    "editor.quickSuggestionsDelay": 100,
     "zenMode.centerLayout": false,
-    "zenMode.fullScreen": false,
+    "zenMode.fullScreen": true,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
     "terminal.integrated.copyOnSelection": true,
-    "editor.wordWrap": "on",
     "window.openFoldersInNewWindow": "off",
+    "security.workspace.trust.untrustedFiles": "open",
+    // "joplin.token": "",
 }
