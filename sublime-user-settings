@@ -1,3 +1,6 @@
 {
-	"python_interpreter": "/opt/homebrew/bin/python3",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
 }
