@@ -17,4 +17,6 @@
     "terminal.integrated.copyOnSelection": true,
     "window.openFoldersInNewWindow": "off",
     "security.workspace.trust.untrustedFiles": "open",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
 }
