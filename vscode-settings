@@ -1,24 +1,15 @@
 {
+    "editor.fontSize": 13,
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "window.openFoldersInNewWindow": "off",
     "python.formatting.provider": "black",
-    "python.linting.enabled": true,
-    "python.linting.pylintEnabled": true,
-    "python.linting.pylintArgs": [
-        "--disable=C0111",
-        "--disable=C0103"
+    "python.linting.flake8Enabled": true,
+    "flake8.args": [
+        "--ignore=F541,E501"
     ],
     "editor.quickSuggestionsDelay": 100,
     "editor.wordWrap": "on",
-    "code-runner.executorMap": {
-        "python": "$pythonPath -u $fullFileName"
-    },
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.ignoreSelection": true,
-    "code-runner.saveFileBeforeRun": true,
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": true,
     "zenMode.hideLineNumbers": false,
@@ -26,5 +17,4 @@
     "terminal.integrated.copyOnSelection": true,
     "window.openFoldersInNewWindow": "off",
     "security.workspace.trust.untrustedFiles": "open",
-    // "joplin.token": "",
 }
