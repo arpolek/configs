@@ -6,16 +6,18 @@
     "python.formatting.provider": "black",
     "python.linting.flake8Enabled": true,
     "flake8.args": [
-        "--ignore=F541,E501"
+//        "--ignore=F541,E501"
     ],
     "editor.quickSuggestionsDelay": 100,
     "editor.wordWrap": "on",
-    "zenMode.centerLayout": false,
-    "zenMode.fullScreen": true,
     "zenMode.hideLineNumbers": false,
     "zenMode.hideTabs": false,
+    "zenMode.centerLayout": false,
     "terminal.integrated.copyOnSelection": true,
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.colorTheme": "One Dark Pro",
     "workbench.iconTheme": "material-icon-theme",
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.cursorStyle": "line",
 }
