@@ -1,8 +1,10 @@
 {
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Vintage",
 	],
 		"scroll_past_end": 0.5,
 		"word_wrap": "true",
+	"theme": "Default.sublime-theme",
 }
