@@ -3,11 +3,6 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "python.formatting.provider": "black",
-    "python.linting.flake8Enabled": true,
-    "flake8.args": [
-        "--ignore=E402,E501,F401,F541"
-    ],
     "editor.quickSuggestionsDelay": 100,
     "editor.wordWrap": "on",
     "zenMode.hideLineNumbers": false,
