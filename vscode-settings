@@ -6,7 +6,6 @@
     "editor.quickSuggestionsDelay": 100,
     "editor.wordWrap": "on",
     "zenMode.hideLineNumbers": false,
-    "zenMode.hideTabs": false,
     "zenMode.centerLayout": false,
     "terminal.integrated.copyOnSelection": true,
     "security.workspace.trust.untrustedFiles": "open",
@@ -15,4 +14,5 @@
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.sendKeybindingsToShell": true,
     "terminal.integrated.cursorStyle": "line",
+    "workbench.list.openMode": "doubleClick",
 }
