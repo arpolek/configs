@@ -8,7 +8,7 @@
 // from the command palette or from `Zed` application menu.
 
 {
-  "theme": "Warp One Dark",
+  "theme": "Andromeda",
   "buffer_font_size": 13,
   "soft_wrap": "editor_width",
   "format_on_save": "on",
