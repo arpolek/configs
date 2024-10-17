@@ -5,9 +5,7 @@
 	],
 	"installed_packages":
 	[
-		"BracketHighlighter",
 		"Compare Side-By-Side",
 		"Package Control",
-		"SideBarEnhancements",
 	],
 }
