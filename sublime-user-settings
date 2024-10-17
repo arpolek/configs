@@ -6,8 +6,7 @@
 	[
 		"Vintage",
 	],
-		"scroll_past_end": 0.5,
-		"word_wrap": "true",
-	"theme": "Default.sublime-theme",
+	"scroll_past_end": 0.5,
+	"word_wrap": "true",
 	"index_files": true,
 }
