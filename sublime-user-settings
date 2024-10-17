@@ -7,4 +7,5 @@
 		"scroll_past_end": 0.5,
 		"word_wrap": "true",
 	"theme": "Default.sublime-theme",
+	"index_files": true,
 }
