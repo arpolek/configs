@@ -1,8 +1,0 @@
-{
-	"python_interpreter": "/opt/homebrew/bin/python3",
-	"pep8_ignore": [
-    "E501",
-    "W504"
-	],
-
-}
