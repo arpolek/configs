@@ -5,8 +5,10 @@
 	],
 	"installed_packages":
 	[
-		"Anaconda",
+		"BracketHighlighter",
 		"Compare Side-By-Side",
 		"Package Control",
+		"python-black",
+		"SideBarEnhancements",
 	],
 }
